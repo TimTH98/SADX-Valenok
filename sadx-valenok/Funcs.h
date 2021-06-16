@@ -20,10 +20,6 @@
 	helperFunctions.ReplaceFile("system\\" a ".PVR", pathbuf); \
 } while (0)
 
-//#define ReplacePVM_HD_Rus(a) helperFunctions.ReplaceFile("system\\" a ".PVM", "system\\" a "_HD_RUS.PVM") \
-//
-//#define ReplacePVM_Rus(a) helperFunctions.ReplaceFile("system\\" a ".PVM", "system\\" a "_RUS.PVM") \
+#define ReplacePVM(a) helperFunctions.ReplaceFile("system\\" a ".PVM", "system\\" a "_VALENOK.PVM") \
 
-#define ReplacePVM(a, b) helperFunctions.ReplaceFile("system\\" a ".PVM", "system\\" b ".PVM") \
-// “ут есть потенциальный шиткод, надо разобратьс€
-// Potential shitcode is here, should be come up with this
+//#define ReplacePVM(a, b) helperFunctions.ReplaceFile("system\\" a ".PVM", "system\\" b ".PVM") \
