@@ -4,6 +4,7 @@
 #include <cmath>
 
 #include "Funcs.h"
+#include "Text.h"
 
 extern "C"
 {
@@ -12,6 +13,8 @@ extern "C"
 		char pathbuf[MAX_PATH];
 		HMODULE DConv = GetModuleHandle(L"DCMods_Main");			// Init Dreamcast Conversion dll
 		HMODULE HDGui = GetModuleHandle(L"HD_GUI");					// Init HD GUI
+
+		IncludeText();
 
 		ReplacePNG_Subtitle("subtitle_eu");
 
