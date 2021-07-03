@@ -6,6 +6,14 @@
 #include "Funcs.h"
 #include "Text.h"
 
+void LoadChaoGardenHintMessages()
+{
+	WriteData((HintText_Entry**)0x9BF070, (HintText_Entry*)&ChaoGardenMessages_English);
+	WriteData((HintText_Entry**)0x9BF084, (HintText_Entry*)&ChaoGardenMessages_English);
+	WriteData((HintText_Entry**)0x9BF098, (HintText_Entry*)&ChaoGardenMessages_English);
+	WriteData((HintText_Entry**)0x9BF0AC, (HintText_Entry*)&ChaoGardenMessages_English);
+}
+
 extern "C"
 {
 	__declspec(dllexport) void __cdecl Init(const char *path, const HelperFunctions &helperFunctions)
@@ -14,7 +22,10 @@ extern "C"
 		HMODULE DConv = GetModuleHandle(L"DCMods_Main");			// Init Dreamcast Conversion dll
 		HMODULE HDGui = GetModuleHandle(L"HD_GUI");					// Init HD GUI
 
+
 		IncludeText();
+		LoadChaoGardenHintMessages();
+		MissionText();
 
 		ReplacePNG_Subtitle("subtitle_eu");
 
@@ -160,7 +171,10 @@ extern "C"
 		ReplacePVM("M_CHNAM");
 		ReplacePVM("OBJ_AL_RACE_E");
 		ReplacePVM("OBJ_AL_RACE");
-		ReplacePVM("OBJ_CASINO_E");
+
+		if (DConv == nullptr)
+			ReplacePVM("OBJ_CASINO_E");
+
 		ReplacePVM("OBJ_MINI_CART");
 		ReplacePVM("PRESSSTART");
 		ReplacePVM("SCORE_ACT_E");
