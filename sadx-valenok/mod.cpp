@@ -1,10 +1,9 @@
 #include "stdafx.h"
 #include <SADXModLoader.h>
-#include <IniFile.hpp>
 #include <cmath>
 
 #include "Funcs.h"
-#include "Text.h"
+#include "VariousText.h"
 
 void LoadChaoGardenHintMessages()
 {
