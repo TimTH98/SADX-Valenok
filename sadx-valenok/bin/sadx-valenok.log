@@ -5,8 +5,8 @@ C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\
 C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v150\Microsoft.CppBuild.targets(1220,5): warning MSB8030: The linker switch "Minimum Required Version" requires "SubSystem" to be set.  Without "SubSystem", the "Minimum Required Version" would not be passed to linker and could prevent to the output binary from running on older Operating Systems.
      Creating library C:\Users\timhe\Documents\GitHub\SADX-Valenok\bin\sadx-valenok.lib and object C:\Users\timhe\Documents\GitHub\SADX-Valenok\bin\sadx-valenok.exp
   Generating code
-  3 of 14 functions (21.4%) were compiled, the rest were copied from previous compilation.
-    0 functions were new in current compilation
-    0 functions had inline decision re-evaluated but remain unchanged
   Finished generating code
+  3 of 159 functions ( 1.9%) were compiled, the rest were copied from previous compilation.
+    0 functions were new in current compilation
+    1 functions had inline decision re-evaluated but remain unchanged
   sadx-valenok.vcxproj -> C:\Users\timhe\Documents\GitHub\SADX-Valenok\bin\sadx-valenok.dll

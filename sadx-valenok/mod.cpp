@@ -21,10 +21,13 @@ extern "C"
 		HMODULE DConv = GetModuleHandle(L"DCMods_Main");			// Init Dreamcast Conversion dll
 		HMODULE HDGui = GetModuleHandle(L"HD_GUI");					// Init HD GUI
 
+		if (DConv) WriteData<5>((void*)0x423795, 0x90);
 
 		IncludeText();
 		LoadChaoGardenHintMessages();
+		BossHelps();
 		MissionText();
+		GG_Games();
 
 		ReplacePNG_Subtitle("subtitle_eu");
 
