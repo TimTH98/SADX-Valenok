@@ -21,3 +21,5 @@
 } while (0)
 
 #define ReplacePVM(a) helperFunctions.ReplaceFile("system\\" a ".PVM", "system\\" a "_VALENOK.PVM") \
+
+#define ReplacePVM_DC(a) helperFunctions.ReplaceFile("system\\" a ".PVM", "system\\" a "_VALENOK_DC.PVM") \

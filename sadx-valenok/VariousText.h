@@ -5,6 +5,9 @@ void IncludeText()
 {
 	WriteData((const char**)0x504B5B, "CO3DATJ HOBSN");
 
+	WriteData((const char**)0x5482A8, " ");
+	WriteData((const char**)0x571813, " ");
+
 	WriteData((const char**)0x917DE0, "esc BEPHYTJCR");
 	WriteData((const char**)0x917E08, "HAGMNTE KHOZKY 4TO6S 3AZNCATJCR");
 	WriteData((const char**)0x917DF4, "3AZNCJ HA 3TON KHOZKE ?");
