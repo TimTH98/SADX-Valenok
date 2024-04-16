@@ -30,7 +30,7 @@ extern "C"
 		MissionText();
 		GG_Games();	
 
-		LoadTextures(path, helperFunctions);
+		if (HDGui) LoadTextures(path, helperFunctions);
 	} 
 	
 	__declspec(dllexport) ModInfo SADXModInfo = { ModLoaderVer };
