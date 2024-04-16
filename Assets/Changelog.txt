@@ -1,0 +1,23 @@
+1.0
+- Add Mission Mode translation
+- Add GG Games names translation
+
+0.3
+- Add PVMX archieve textures
+- Add pirate-like font
+- Support of HD GUI
+
+0.2.2
+- Removed unused textures
+- Fixed missing messages
+
+0.2.1
+- Fixed Sound Test text
+- Added a missing texture
+
+0.2.0
+- Add textures
+- Remove unused text
+
+0.1.0
+- Add text

@@ -1,0 +1,19 @@
+Ported by:
+	Halatnikov (Text)
+	TimTH (Textures, Coding)
+	HardDan (Testing)
+
+Made with:
+	SA Tools by MainMemory and many-many people
+	SA1 Text Injector by RikuKH3
+	PVR Viewer by S.O.
+	Puyo Tools
+	pvmx tool
+	Adobe Photoshop
+
+With help from:
+	PkR
+	Ayleen-Seraph
+
+Original translation by:
+8-bit, Torum Media
