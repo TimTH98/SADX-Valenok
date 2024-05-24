@@ -1,13 +1,13 @@
-﻿C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v150\Platforms\Win32\PlatformToolsets\v141_xp\Toolset.targets(39,5): warning MSB8051: Support for targeting Windows XP is deprecated and will not be present in future releases of Visual Studio. Please see https://go.microsoft.com/fwlink/?linkid=2023588 for more information.
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v150\Microsoft.CppBuild.targets(376,5): warning MSB8004: Intermediate Directory does not end with a trailing slash.  This build instance will add the slash as it is required to allow proper evaluation of the Intermediate Directory.
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v150\Microsoft.CppBuild.targets(391,5): warning MSB8028: The intermediate directory (bin\) contains files shared from another project (sadx-russian-mod.vcxproj).  This can lead to incorrect clean and rebuild behavior.
+﻿D:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v150\Platforms\Win32\PlatformToolsets\v141_xp\Toolset.targets(39,5): warning MSB8051: Support for targeting Windows XP is deprecated and will not be present in future releases of Visual Studio. Please see https://go.microsoft.com/fwlink/?linkid=2023588 for more information.
+D:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v150\Microsoft.CppBuild.targets(376,5): warning MSB8004: Intermediate Directory does not end with a trailing slash.  This build instance will add the slash as it is required to allow proper evaluation of the Intermediate Directory.
+D:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v150\Microsoft.CppBuild.targets(391,5): warning MSB8028: The intermediate directory (bin\) contains files shared from another project (sadx-russian-mod.vcxproj).  This can lead to incorrect clean and rebuild behavior.
   mod.cpp
-C:\Users\timhe\Documents\GitHub\SADX-Valenok\sadx-valenok\mod.cpp(21): warning C4101: 'pathbuf': unreferenced local variable
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v150\Microsoft.CppBuild.targets(1220,5): warning MSB8030: The linker switch "Minimum Required Version" requires "SubSystem" to be set.  Without "SubSystem", the "Minimum Required Version" would not be passed to linker and could prevent to the output binary from running on older Operating Systems.
-     Creating library C:\Users\timhe\Documents\GitHub\SADX-Valenok\bin\sadx-valenok.lib and object C:\Users\timhe\Documents\GitHub\SADX-Valenok\bin\sadx-valenok.exp
+d:\_github\sadx-valenok\sadx-valenok\mod.cpp(13): warning C4101: 'pathbuf': unreferenced local variable
+D:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v150\Microsoft.CppBuild.targets(1220,5): warning MSB8030: The linker switch "Minimum Required Version" requires "SubSystem" to be set.  Without "SubSystem", the "Minimum Required Version" would not be passed to linker and could prevent to the output binary from running on older Operating Systems.
+     Creating library D:\_GitHub\SADX-Valenok\bin\sadx-valenok.lib and object D:\_GitHub\SADX-Valenok\bin\sadx-valenok.exp
   Generating code
-  2 of 160 functions ( 1.2%) were compiled, the rest were copied from previous compilation.
+  4 of 171 functions ( 2.3%) were compiled, the rest were copied from previous compilation.
     0 functions were new in current compilation
     0 functions had inline decision re-evaluated but remain unchanged
   Finished generating code
-  sadx-valenok.vcxproj -> C:\Users\timhe\Documents\GitHub\SADX-Valenok\bin\sadx-valenok.dll
+  sadx-valenok.vcxproj -> D:\_GitHub\SADX-Valenok\bin\sadx-valenok.dll

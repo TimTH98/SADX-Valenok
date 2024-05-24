@@ -239,33 +239,13 @@ void GG_Games()
 }
 
 #pragma region Chao Garden
-__int16 ChaoGardenMessages_English_0_Control[] = {
-	NPCTextControl_EventFlag,
-	8,
-	NPCTextControl_Voice,
-	199,
-	NPCTextControl_SetEventFlag,
-	0x4008,
-	NPCTextControl_End
-};
-
-HintText_Text ChaoGardenMessages_English_0_Text[] = {
+HintText_Text AboutChaoGarden[] = {
 	{ "\a3TO - HACTORWNN CAD 4AO.", 120 },
 	{ "\aECLN ZPNHECTN CUDA RNQA CO BCEFO MNPA,\nTO PODNTCR MALEHJKNN HOBSN 4AO.", 360 },
 	{ 0 }
 };
 
-__int16 ChaoGardenMessages_English_1_Control[] = {
-	NPCTextControl_EventFlag,
-	2,
-	NPCTextControl_Voice,
-	193,
-	NPCTextControl_SetEventFlag,
-	0x4002,
-	NPCTextControl_End
-};
-
-HintText_Text ChaoGardenMessages_English_1_Text[] = {
+HintText_Text AboutChaoEggs[] = {
 	{ "\aRNQO 4EPE3 BPEMR TPECHET.\nCKOPLYZA PACKPOETCR.", 120 },
 	{ "\aBS MOGETE ZOMO4J RNQY\nBEPHO PA36NTJCR.", 120 },
 	{ "\aB 3ABNCNMOCTN OT\nTOFO KAK PA36NTJ", 120 },
@@ -273,23 +253,13 @@ HintText_Text ChaoGardenMessages_English_1_Text[] = {
 	{ 0 }
 };
 
-__int16 ChaoGardenMessages_English_2_Control[] = {
-	NPCTextControl_EventFlag,
-	3,
-	NPCTextControl_Voice,
-	1952,
-	NPCTextControl_SetEventFlag,
-	0x4003,
-	NPCTextControl_End
-};
-
-HintText_Text ChaoGardenMessages_English_2_Text[] = {
+HintText_Text AboutLittleAnimals[] = {
 	{ "\aECLN DADNTE 4AO MALEHJKOFO 3BEPR,\nTO 4AO N3MEHNTCR.", 150 } ,
 	{ "\aZOZPO6YNTE 3KCZEPNMEHTS\nC PA3HSMN 3BEPRMN..", 150 } ,
 	{ 0 }
 };
 
-HintText_Text ChaoGardenMessages_English_3_Text[] = {
+HintText_Text AboutFeedingBreedingEtc[] = {
 	{ "\a'KOPMLEHNE BAWEFO 4AO'", 0 } ,
 	{ "\a4OA LU6RT ECTJ VPYKTS.", 0 } ,
 	{ "\aNX MOGHO DOCTATJ, ZOTPYCNB DEPEBJR.\nECLN XOTNTE ZOTPRCTN DEPEBO,", 0 } ,
@@ -300,14 +270,14 @@ HintText_Text ChaoGardenMessages_English_3_Text[] = {
 	{ "\aKOFDA BCE QBETS HA4NHAUT QBECTN\nTO 4AO FOTOBO K PA3MHOGEHNU.", 0 } ,
 	{ "\aECLN ZOMECTNTJ EFO PRDOM C DPYFNM,", 0 } ,
 	{ "\aOHO DAGE CHECET RNQO", 0 } ,
-	{ "\a3KCTPA COBET'", 0 } ,
+	{ "\a'3KCTPA COBET'", 0 } ,
 	{ "\aECLN BS ZOMECTNTE 9\n4AO B ODHOM CADY, TO", 0 } ,
 	{ "\aNM HE ZOHPABNTCR TAKAR TOLZA.\nECLN HAPOD CNLJHO TOLZNTCR, 4AO", 0 } ,
 	{ "\aHA4NHAUT NDTN ZPRMO B CBON CADS.", 0 } ,
 	{ 0 }
 };
 
-HintText_Text ChaoGardenMessages_English_4_Text[] = {
+HintText_Text AboutWarphole[] = {
 	{ "\a'DSPA ZEPEXODA'", 0 } ,
 	{ "\a3TO DSPA ZEPEXODA.", 0 } ,
 	{ "\aTS MOGEWJ LEFKO ZPONTN B CADS\nFDE TS BEDJ YGE PAHJWE 6SBAL.", 0 } ,
@@ -315,22 +285,20 @@ HintText_Text ChaoGardenMessages_English_4_Text[] = {
 	{ 0 }
 };
 
-HintText_Text ChaoGardenMessages_English_5_Text[] = {
-	{ "\aMAWNHA NMEH", 0 } ,
+HintText_Text AboutNameMachine[] = {
+	{ "\a'MAWNHA NMEH'", 0 } ,
 	{ "\a3TO MAWNHA, KOTOPAR\n3AZNCSBAET NMR DLR 4AO.", 0 } ,
 	{ "\aXBATAN 4AO N ZOLOGN 4AO\nHA KPACHYU KHOZKY N CTAPTYN.", 0 } ,
 	{ "\aDAN 4AO XOPOWEE NMR, RCHO?", 0 } ,
 	{ 0 }
 };
 
-HintText_Text ChaoGardenMessages_English_6_Text[] = {
+HintText_Text AboutChaoStadium[] = {
 	{ "\aCTADNOH 4AO ZPNBETCTBYET!\nPODHON DOM DLR PAC 4AO!!", 0 } ,
 	{ 0 }
 };
 
-//Custom messages
-
-HintText_Text ChaoGardenMessages_English_7_Text[] = {
+HintText_Text AboutChaoRace[] = {
 	{ "\a'PACA 4AO'", 0 },
 	{ "\a\x81\xA1 DANTE 4AO BONTN B\nFOHKY N HAZPABLRNTECJ K QELN!", 0 },
 	{ "\a\x81\xA1 B FOHKAX 4AO -ZPN3-\nECLN 3AHNMAETE 1-OE MECTO", 0 },
@@ -343,15 +311,131 @@ HintText_Text ChaoGardenMessages_English_7_Text[] = {
 	{ 0 }
 };
 
-HintText_Entry ChaoGardenMessages_English[] = {
-	{ ChaoGardenMessages_English_0_Control, ChaoGardenMessages_English_0_Text },
-	{ ChaoGardenMessages_English_1_Control, ChaoGardenMessages_English_1_Text },
-	{ ChaoGardenMessages_English_2_Control, ChaoGardenMessages_English_2_Text },
-	{ NULL, ChaoGardenMessages_English_3_Text },
-	{ NULL, ChaoGardenMessages_English_4_Text },
-	{ NULL, ChaoGardenMessages_English_5_Text },
-	{ NULL, ChaoGardenMessages_English_6_Text },
-	{ NULL, ChaoGardenMessages_English_7_Text }
-};
+void LoadDCChaoGardenText()
+{
+	WriteData((HintText_Text*)0x880CB0, AboutChaoGarden);
+	WriteData((HintText_Text*)0x880CB8, AboutChaoEggs);
+	WriteData((HintText_Text*)0x880CF0, AboutLittleAnimals);
+	WriteData((HintText_Text*)0x880D08, AboutFeedingBreedingEtc);
+	WriteData((HintText_Text*)0x880D80, AboutWarphole);
+	WriteData((HintText_Text*)0x880DA8, AboutNameMachine);
+	WriteData((HintText_Text*)0x880DD0, AboutChaoStadium);
+	WriteData((HintText_Text*)0x887B28, AboutChaoRace);
+}
+
+//__int16 ChaoGardenMessages_English_0_Control[] = {
+//	NPCTextControl_EventFlag,
+//	8,
+//	NPCTextControl_Voice,
+//	199,
+//	NPCTextControl_SetEventFlag,
+//	0x4008,
+//	NPCTextControl_End
+//};
+//
+//HintText_Text ChaoGardenMessages_English_0_Text[] = {
+//	{ "\a3TO - HACTORWNN CAD 4AO.", 120 },
+//	{ "\aECLN ZPNHECTN CUDA RNQA CO BCEFO MNPA,\nTO PODNTCR MALEHJKNN HOBSN 4AO.", 360 },
+//	{ 0 }
+//};
+//
+//__int16 ChaoGardenMessages_English_1_Control[] = {
+//	NPCTextControl_EventFlag,
+//	2,
+//	NPCTextControl_Voice,
+//	193,
+//	NPCTextControl_SetEventFlag,
+//	0x4002,
+//	NPCTextControl_End
+//};
+//
+//HintText_Text ChaoGardenMessages_English_1_Text[] = {
+//	{ "\aRNQO 4EPE3 BPEMR TPECHET.\nCKOPLYZA PACKPOETCR.", 120 },
+//	{ "\aBS MOGETE ZOMO4J RNQY\nBEPHO PA36NTJCR.", 120 },
+//	{ "\aB 3ABNCNMOCTN OT\nTOFO KAK PA36NTJ", 120 },
+//	{ "\aRNQO ZPEBCE XAPAKTEPNCTNKN 4AO.", 150 } ,
+//	{ 0 }
+//};
+//
+//__int16 ChaoGardenMessages_English_2_Control[] = {
+//	NPCTextControl_EventFlag,
+//	3,
+//	NPCTextControl_Voice,
+//	1952,
+//	NPCTextControl_SetEventFlag,
+//	0x4003,
+//	NPCTextControl_End
+//};
+//
+//HintText_Text ChaoGardenMessages_English_2_Text[] = {
+//	{ "\aECLN DADNTE 4AO MALEHJKOFO 3BEPR,\nTO 4AO N3MEHNTCR.", 150 } ,
+//	{ "\aZOZPO6YNTE 3KCZEPNMEHTS\nC PA3HSMN 3BEPRMN..", 150 } ,
+//	{ 0 }
+//};
+//
+//HintText_Text ChaoGardenMessages_English_3_Text[] = {
+//	{ "\a'KOPMLEHNE BAWEFO 4AO'", 0 } ,
+//	{ "\a4OA LU6RT ECTJ VPYKTS.", 0 } ,
+//	{ "\aNX MOGHO DOCTATJ, ZOTPYCNB DEPEBJR.\nECLN XOTNTE ZOTPRCTN DEPEBO,", 0 } ,
+//	{ "\aGMNTE KHOZKY DENCTBNR\nN +control pad.", 0 } ,
+//	{ "\aPA3HSE VPYKTS 4AO\nDAUT PA3HSE 3VVEKTS.", 0 } ,
+//	{ "\aZOZPO6YNTE DATJ EMY\nPA3HSE VPYKTS.", 0 } ,
+//	{ "\a'KAK PA3BODNTJ BAWE 4AO'", 0 } ,
+//	{ "\aKOFDA BCE QBETS HA4NHAUT QBECTN\nTO 4AO FOTOBO K PA3MHOGEHNU.", 0 } ,
+//	{ "\aECLN ZOMECTNTJ EFO PRDOM C DPYFNM,", 0 } ,
+//	{ "\aOHO DAGE CHECET RNQO", 0 } ,
+//	{ "\a3KCTPA COBET'", 0 } ,
+//	{ "\aECLN BS ZOMECTNTE 9\n4AO B ODHOM CADY, TO", 0 } ,
+//	{ "\aNM HE ZOHPABNTCR TAKAR TOLZA.\nECLN HAPOD CNLJHO TOLZNTCR, 4AO", 0 } ,
+//	{ "\aHA4NHAUT NDTN ZPRMO B CBON CADS.", 0 } ,
+//	{ 0 }
+//};
+//
+//HintText_Text ChaoGardenMessages_English_4_Text[] = {
+//	{ "\a'DSPA ZEPEXODA'", 0 } ,
+//	{ "\a3TO DSPA ZEPEXODA.", 0 } ,
+//	{ "\aTS MOGEWJ LEFKO ZPONTN B CADS\nFDE TS BEDJ YGE PAHJWE 6SBAL.", 0 } ,
+//	{ "\aTS MOGEWJ ZPNHECTN 4AO\nN RNQA C CO6ON.", 0 } ,
+//	{ 0 }
+//};
+//
+//HintText_Text ChaoGardenMessages_English_5_Text[] = {
+//	{ "\aMAWNHA NMEH", 0 } ,
+//	{ "\a3TO MAWNHA, KOTOPAR\n3AZNCSBAET NMR DLR 4AO.", 0 } ,
+//	{ "\aXBATAN 4AO N ZOLOGN 4AO\nHA KPACHYU KHOZKY N CTAPTYN.", 0 } ,
+//	{ "\aDAN 4AO XOPOWEE NMR, RCHO?", 0 } ,
+//	{ 0 }
+//};
+//
+//HintText_Text ChaoGardenMessages_English_6_Text[] = {
+//	{ "\aCTADNOH 4AO ZPNBETCTBYET!\nPODHON DOM DLR PAC 4AO!!", 0 } ,
+//	{ 0 }
+//};
+//
+//Custom messages
+//
+//HintText_Text ChaoGardenMessages_English_7_Text[] = {
+//	{ "\a'PACA 4AO'", 0 },
+//	{ "\a\x81\xA1 DANTE 4AO BONTN B\nFOHKY N HAZPABLRNTECJ K QELN!", 0 },
+//	{ "\a\x81\xA1 B FOHKAX 4AO -ZPN3-\nECLN 3AHNMAETE 1-OE MECTO", 0 },
+//	{ "\aBAM DAUT DOPOFYU ZODBECKY.", 0 },
+//	{ "\x81\xA1\a BECELNTECJ N3-3A 4AO! KOFDA BS\nPADYETECJ, KOFDA OHO MNFAET,", 0 },
+//	{ "\aBCE ZONDET HEMHOFO 6SCTPEE.\nBECELJE: KHOZKN a, b, x NLN y", 0 },
+//	{ "\x81\xA1\a ZEPEDBNFANTE TPEYFOLJHSN KYPCOP\nN MEHRNTE YFOL KAMEPS N BS6EPNTE 4AO,", 0 },
+//	{ "\aHA KOFO HADO CMOTPETJ.", 0 },
+//	{ "\aCMEHA YFLOB KAMEPS:\n+control pad", 0 },
+//	{ 0 }
+//};
+//
+//HintText_Entry ChaoGardenMessages_English[] = {
+//	{ ChaoGardenMessages_English_0_Control, ChaoGardenMessages_English_0_Text },
+//	{ ChaoGardenMessages_English_1_Control, ChaoGardenMessages_English_1_Text },
+//	{ ChaoGardenMessages_English_2_Control, ChaoGardenMessages_English_2_Text },
+//	{ NULL, ChaoGardenMessages_English_3_Text },
+//	{ NULL, ChaoGardenMessages_English_4_Text },
+//	{ NULL, ChaoGardenMessages_English_5_Text },
+//	{ NULL, ChaoGardenMessages_English_6_Text },
+//	{ NULL, ChaoGardenMessages_English_7_Text }
+//};
 
 #pragma endregion
