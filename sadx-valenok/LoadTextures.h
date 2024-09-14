@@ -26,9 +26,6 @@ void LoadTextures(const char* path, const HelperFunctions& helperFunctions)
 #pragma region Common PVRs 
 	ReplacePNG_Common("ABC_TXT");				// File select font
 	ReplacePNG_Common("HYOJI_BALLS_E");			// Casinopolis ball counter
-	ReplacePNG_Common("B32ASCII");				// Boss name font
-	ReplacePNG_Common("ST_064S_SCORE");			// Score in HUD
-	ReplacePNG_Common("ST_128S_HPGEJI");		// Tornado's health bar story
 #pragma endregion
 
 #pragma region Stages name PVRs

@@ -57,7 +57,7 @@ void IncludeText()
 	WriteData((const char**)0x9169E4, "\aTEZEPJ MOGHO NFPATJ e102!");
 	WriteData((const char**)0x9169F8, "\aTEZEPJ MOGHO NFPATJ 6NFOM!");
 
-	WriteData((const char**)0x90C4CC, "\aBSNTN N3 NFPS N BEPHYTJCR B FLABHOE MEHU. \n3TO ok?");
+	WriteData((const char**)0x90C4CC, "\aBSNTN N3 NFPS N BEPHYTJCR B FLABHOE MEHU.\n3TO ok?");
 	WriteData((const char**)0x90C4B8, "\a3TO 3AKOH4NT YPOBEHJ N BEPHET K ZOLU \nZPNKLU4EHNN, XOTNTE LN BS 3TOFO?");
 
 	WriteData((const char**)0x981898, "\aNCZ DLR ZONMKN 6OLJWEN PS6S!");
